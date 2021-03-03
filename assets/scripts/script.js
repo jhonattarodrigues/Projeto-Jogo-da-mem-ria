@@ -3,14 +3,12 @@ const BACK = "card_back"
 const CARD = "card"
 const ICON = "icon"
 
-
 startGame();
 
 function startGame() {
   //game.createCardsFromTechs();
   initializeCards(game.createCardsFromTechs());
 }
-
 function initializeCards(cards) {
   let gameBoard = document.getElementById("gameBoard");
   gameBoard.innerHTML = '';
